@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div></div>
+  <div class="row"></div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+
+  </div>
+    <form class="form"action="post">
+        <label>Name:</label>
+        <input max length="30"type="text"name="name"size="40"placeholder="enter your name">
+        <label>Age:</label>
+        <input max length="3"type="text"name="age"size="40"placeholder="enter your age">
+          <br> 
+          <br>
+        <label>Gender:</label>
+        male<input type="radio"name="gender"value="male">female<input type="radio" name="gender"value="female">other<input type="radio"name="gender"value="other">
+          <br>
+        <label >Number:</label>
+        <input max length="10"type="text"name="phone number"size="40"placeholder="enter your number">
+        <label>Place:</label>
+        <input max length="30"type="text"name="place"size="40"placeholder="enter your place">
+          <br> 
+          <br>
+        <label>District:</label>
+        <input max length="30"type="text"name="district"size="40"placeholder="enter your district">
+          <br> 
+          <br.
+        <label>select symptoms</label>
+          <select name="symptom" multiple >
+             <option value="">fever</option>
+             <option value="">cold</option>
+             <option value="">diarrhea</option>
+             <option value="">body pain</option>
+             <option value="">throat pain</option>
+             <option value="">constipation</option>
+             <option value="">cough</option>
+             <option value="">stomach ache</option>
+             <option value="">allergy
+            <option value="">head ache</option></option>
+             </select>
+           <br>
+           <br>
+        <label>How many days you have:</label>
+           <input max length="30"type="text"name="days"size="40"placeholder="enter number of days and frequency">
+           <br> 
+           <br>
+        <label >Any other medical issues:</label>
+            <input max length="30"type="text"name="medical issue"size="40"placeholder="enter your medical issue">
+           <br> 
+           <br>
+        bp<input type="checkbox"name="issue"value="bp"checked>diabetes<input type="checkbox"name="issue"value="diabetes">heart issue<input type="checkbox"name="issue"value="heart issue">
+           <br> 
+           <br>
+        <label>
+            <input type="checkbox" name="I agree that above information I gave are true to my knowlwdge"> I agree that above information I gave are true to my knowlwdge
+        </label>
+        <br>
+        <br>
+        <button class ="sub-button" type="submit">Submit</button>
+    </form>
+</body> 
+</html>

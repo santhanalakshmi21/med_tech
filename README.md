@@ -1,5 +1,6 @@
 
 
+
 MED TECH
 
 online pharmacy
@@ -18,3 +19,4 @@ SCREEN SHOTS
 ![contact](https://user-images.githubusercontent.com/104186416/205522557-7e2b4aef-6047-427e-a580-cb6d3714e8a0.png)
 ![diagnosis](https://user-images.githubusercontent.com/104186416/205932334-72321a30-c469-4049-b2a0-040c18d2e691.png)
 ![diagnosis result](https://user-images.githubusercontent.com/104186416/206086028-8e49519f-bc6f-4937-a725-c9668e8cfd2e.png)
+![buy medicine](https://user-images.githubusercontent.com/104186416/206351231-e03ef853-450e-460f-a8c8-079ee8089054.png)
